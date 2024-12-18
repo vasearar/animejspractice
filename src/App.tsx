@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Loading from "./components/loading.tsx";
-import Main from "./components/main.tsx";
+import Main from "./components/prime.tsx";
 
 function App() {
   const[state, setstate] = useState(false);
