@@ -3,6 +3,7 @@
 
   const Prime = () => {
     const [mousePosition, setMousePosition] = useState({ x: 10000, y: 10000 });
+    let colors = ["from-indigo-500 via-purple-500 to-pink-500", "from-green-400 via-blue-500 to-indigo-600", "from-yellow-400 via-orange-500 to-red-600", "from-blue-400 via-teal-500 to-green-500", "from-teal-400 via-green-500 to-lime-600", "from-pink-400 via-pink-500 to-red-500"];
     const [onText, setOnText] = useState(false);
     const [index, setIndex] = useState(0);
     const animationTimelineRef = useRef<any>(null);
@@ -133,12 +134,12 @@
 
         <article className='relative h-full flex items-center overflow-clip'>
           <div className='whitespace-nowrap w-max forAnime font-semibold text-[600px] -my-[270px]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <h1 className={`inline-block mx-16 text-white`}>WEB</h1>
-            <h1 className={`inline-block mx-16 text-white`}>ESTE</h1>
-            <h1 className={`inline-block mx-16 text-white`}>VIITORUL</h1>
-            <h1 className={`inline-block mx-16 text-white`}>WEB</h1>
-            <h1 className={`inline-block mx-16 text-white`}>ESTE</h1>
-            <h1 className={`inline-block mx-16 text-white`}>VIITORUL</h1>
+            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover bg-gradient-to-r ${colors[index % 6]}`}>WEB</h1>
+            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover bg-gradient-to-r ${colors[index % 6]}`}>ESTE</h1>
+            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover bg-gradient-to-r ${colors[index % 6]}`}>VIITORUL</h1>
+            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover bg-gradient-to-r ${colors[index % 6]}`}>WEB</h1>
+            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover bg-gradient-to-r ${colors[index % 6]}`}>ESTE</h1>
+            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover bg-gradient-to-r ${colors[index % 6]}`}>VIITORUL</h1>
           </div>
         </article>
 
