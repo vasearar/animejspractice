@@ -4,7 +4,6 @@
   const Prime = () => {
     const [mousePosition, setMousePosition] = useState({ x: 10000, y: 10000 });
     const [onText, setOnText] = useState(false);
-    const images = ['text1.webp', 'text2.webp', 'text3.webp', 'text4.webp'];
     const [index, setIndex] = useState(0);
     const animationTimelineRef = useRef<any>(null);
 
@@ -134,12 +133,12 @@
 
         <article className='relative h-full flex items-center overflow-clip'>
           <div className='whitespace-nowrap w-max forAnime font-semibold text-[817px] -my-[270px]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover`} style={{ backgroundImage: `url(${images[index % 4]})` }}>WEB</h1>
-            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover`} style={{ backgroundImage: `url(${images[index % 4]})` }}>ESTE</h1>
-            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover`} style={{ backgroundImage: `url(${images[index % 4]})` }}>VIITORUL</h1>
-            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover`} style={{ backgroundImage: `url(${images[index % 4]})` }}>WEB</h1>
-            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover`} style={{ backgroundImage: `url(${images[index % 4]})` }}>ESTE</h1>
-            <h1 className={`inline-block mx-16 bg-clip-text text-white hover:text-transparent bg-cover`} style={{ backgroundImage: `url(${images[index % 4]})` }}>VIITORUL</h1>
+            <h1 className={`inline-block mx-16 text-white`}>WEB</h1>
+            <h1 className={`inline-block mx-16 text-white`}>ESTE</h1>
+            <h1 className={`inline-block mx-16 text-white`}>VIITORUL</h1>
+            <h1 className={`inline-block mx-16 text-white`}>WEB</h1>
+            <h1 className={`inline-block mx-16 text-white`}>ESTE</h1>
+            <h1 className={`inline-block mx-16 text-white`}>VIITORUL</h1>
           </div>
         </article>
 
