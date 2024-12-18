@@ -129,7 +129,7 @@
         <nav className='flex justify-between uppercase opacity-0 text-base m-4'>
           <p>Prodius Cătălin</p>
           <p className='tracking-[1.1rem]'>Pentru colaborări •</p>
-          <a href='https://www.andys.md/ro/menu-page' target='_blank' className='tracking-[1.1rem] pl-4 -ml-4'>MENU</a>
+          <a href='https://www.andys.md/ro/meniu-in-sala' target='_blank' className='tracking-[1.1rem] pl-4 -ml-4'>MENU</a>
         </nav>
 
         <article className='relative h-full flex items-center overflow-clip'>
