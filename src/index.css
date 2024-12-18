@@ -45,3 +45,7 @@ a::before {
 a:hover::before {
   transform: scaleX(1);
 }
+
+.forAnime{
+  will-change: transform;
+}

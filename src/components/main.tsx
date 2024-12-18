@@ -4,7 +4,7 @@ import anime from 'animejs/lib/anime.es.js';
 const Main = () => {
   const [mousePosition, setMousePosition] = useState({ x: 10000, y: 10000 });
   const [onText, setOnText] = useState(false);
-  const images = ['text1.webp', 'text2.webp', 'text3.webp', 'text4.webp',];
+  const images = ['text1.webp', 'text2.webp', 'text3.webp', 'text4.webp'];
   const [index, setIndex] = useState(0);
   const animationTimelineRef = useRef<any>(null);
 
