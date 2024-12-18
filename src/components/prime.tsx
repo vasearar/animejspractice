@@ -132,7 +132,7 @@
         </nav>
 
         <article className='relative h-full flex items-center overflow-clip'>
-          <div className='whitespace-nowrap w-max forAnime font-semibold text-[817px] -my-[270px]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <div className='whitespace-nowrap w-max forAnime font-semibold text-[600px] -my-[270px]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <h1 className={`inline-block mx-16 text-white`}>WEB</h1>
             <h1 className={`inline-block mx-16 text-white`}>ESTE</h1>
             <h1 className={`inline-block mx-16 text-white`}>VIITORUL</h1>
